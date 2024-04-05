@@ -32,7 +32,7 @@ headers = {
 }
 
 import os
-os.environ["OPENAI_API_KEY"] = "auth_key" #openai 키 입력
+os.environ["OPENAI_API_KEY"] = "auth_token" #openai 키 입력
 
 # 웹페이지에 보여질 내용
 langs = ["Korean", "Japanese", "chinese", "English"]  #번역을 할 언어를 나열
