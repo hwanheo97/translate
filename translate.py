@@ -26,7 +26,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 import os
-os.environ["OPENAI_API_KEY"] = "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" #openai 키 입력
+os.environ["OPENAI_API_KEY"] = "auth_key" #openai 키 입력
 
 # 웹페이지에 보여질 내용
 langs = ["Korean", "Japanese", "chinese", "English"]  #번역을 할 언어를 나열
