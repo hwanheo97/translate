@@ -25,6 +25,12 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
+
+headers = {
+    "authorization": st.secrets["auth_token"],
+    "content-type": "application/python"
+}
+
 import os
 os.environ["OPENAI_API_KEY"] = "auth_key" #openai 키 입력
 
